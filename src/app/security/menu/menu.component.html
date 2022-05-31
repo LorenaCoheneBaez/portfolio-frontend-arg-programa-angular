@@ -1,0 +1,65 @@
+<div class="wrapper">
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="barra_login">
+        <h1>¡Hola! soy <span class="bienvenida">Lorena Cohene Báez</span></h1>
+        <h2>Bienvenid@ a mi portfolio</h2>
+        <ul class="login_list">
+            <li *ngIf="!isLogged">
+                <button type="button" data-toggle="modal" data-target="#popUpWindow"><i class="fa-solid fa-door-closed"></i>    Iniciar sesión</button>
+            </li>
+            <li *ngIf="isLogged" (click)="onLogOut()">
+                <button type="button" data-toggle="modal"><i class="fa-solid fa-door-open"></i>   Cerrar sesión</button>
+            </li>
+        </ul>
+    </div>
+
+        <div class="modal" id="popUpWindow">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                            </button>
+                        </div><br>
+                    <div class="modal-body">
+                        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+                            <div class="form-group">
+                                <label for="nombreUsuario"> Usuario</label>
+                                <input type="text" name="nombreUsuario" id="nombreUsuario" class="form-control" [(ngModel)]="nombreUsuario" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña</label>
+                                <input type="password" name="password" id="password" class="form-control" [(ngModel)]="password" required/>
+                            </div> <br>
+                            <div class="form-group">
+                                <button class="btn" [disabled]="!f.valid">
+                                    <i class="fa-solid fa-arrow-right-to-bracket" data-dismiss="modal"></i>
+                                    Iniciar Sesión
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+</div>
+
+
+
+
+    
+
+
+
