@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiBaseUrl: 'https://argprograma-backend-springboot.herokuapp.com/',
-  apiAuthUrl: 'https://argprograma-backend-springboot.herokuapp.com/auth/',
+  apiBaseUrl: 'https://portfolio-cohene-arg-programa.herokuapp.com/',
+  apiAuthUrl: 'https://portfolio-cohene-arg-programa.herokuapp.com/auth/',
 };
