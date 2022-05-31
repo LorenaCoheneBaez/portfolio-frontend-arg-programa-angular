@@ -5,11 +5,9 @@
 }
 
 .wrapper {
-    /* position: absolute; */
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: linear-gradient(90deg, rgb(109, 16, 93) 0%, rgb(151, 8, 156, 1) 35%, rgb(247, 22, 179, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,14 +27,13 @@ h1 {
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     font-weight: light;
-    color: #fff;
+    color: rgb(10, 140, 187);
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
     align-self: center;
     justify-content: center;
     line-height: 43px;
-    text-shadow: 1px 1px 10px rgb(127, 20, 148);
 }
 
 .barra_login ul {
@@ -56,19 +53,14 @@ h1 {
 .barra_login ul li button{
     padding: 2px 10px;
     border-radius: 7px;
-    color: rgb(247, 101, 203);
-    background-color: #720F64;
-    border-color: rgb(131, 14, 121);
+    color: rgb(35, 27, 191);
+    background-color: #ebe4ea;
+    border-color: rgb(240, 235, 240);
     border: none;
-    box-shadow: 0.2px 1px 5px pink;
-    ;
     transition: 1s;
 }
 
 .barra_login ul li button:hover {
-    color: #720F64;
-    background-color: rgba(247, 101, 203, 0.801);
-    box-shadow: 0.2px 1px 5px pink;
     transition: 1s;
 }
 
