@@ -26,11 +26,12 @@ nav ul {
 
 nav ul li a{
     font-size: 20px;
-    color: #720F64;
+    color: #000;
 }
 
 nav ul li a:hover {
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 
@@ -39,7 +40,6 @@ nav ul li a:hover {
     min-width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-image: url(https://i.ibb.co/GCHSstY/sobremibanner1.jpg);
     background-position: center;
     background-size: cover;
     
@@ -240,7 +240,6 @@ h2 {
 
 h1 span {
     font-size: 25px;
-    text-shadow: 2px 2px 2px #f06de9;
     text-shadow: 0 3 5px rgb(189, 173, 173) ;
 }
 
@@ -281,7 +280,6 @@ h1 span {
     border-radius: 50%;
     border: none;
     background:#f8e6f1;
-    color: #7C3772;
 }
 
 .boton_eliminar {
@@ -325,11 +323,9 @@ h1 span {
     border: none;
     background: none;
     text-align: right;
-    color: #720F64;
 }
 
 .modal-header h5 {
-    color: #720F64;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -346,7 +342,6 @@ h1 span {
 .modal-body form label {
     line-height: 7px;
     margin-top: 5px;
-    color: #720F64;
 }
 
 .modal-footer {
@@ -359,7 +354,6 @@ h1 span {
 
 .modal-footer button {
     border: none;
-    color: #720F64;
     margin: 5px;
     padding: 2px 5px;
     border-color: none;
@@ -368,7 +362,6 @@ h1 span {
 
 .modal-footer .boton-editar {
     border: none;
-    color: #720F64;
     margin: 5px;
     padding: 2px 5px;
     border-color: none;
@@ -381,7 +374,6 @@ h1 span {
 
 #update-persona-modal {
     padding: 3px 5px;
-    color: #720F64;
 }
 
 

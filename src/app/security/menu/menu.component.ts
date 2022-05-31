@@ -65,8 +65,6 @@ export class MenuComponent implements OnInit {
         this.isLoginFail = true;
         this.errorMessage = err.error.error;
         console.log(err.error.error);
-        
-
       }
     })
   }

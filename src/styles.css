@@ -2,13 +2,23 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+
 }
 
 html, body { height: 100%;
 width: 100%; }
 
 body {
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    font-family: Raleway, 'Courier New', Courier, monospace; 
+    color: #f42160;
+}
+
+a{
+    color: #0000;
+}
+
+button{
+    border: 2px solid #f42160;
 }
 
 

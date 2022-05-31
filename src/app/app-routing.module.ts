@@ -15,11 +15,11 @@ const routes: Routes = [
   {path: '', component: IndexComponent},
   {path: 'login', component: LoginComponent},
   {path: 'registro', component: RegistroComponent},
-  {path: 'estudios', component: EstudiosComponent, canActivate:[guard], data: {expectedRole: ['admin', 'user']}},
-  {path: 'skills', component: SkillsComponent, canActivate:[guard], data: {expectedRole: ['admin', 'user']}},
-  {path: 'experiencialaboral', component: ExperiencialaboralComponent, canActivate:[guard], data: {expectedRole: ['admin', 'user']}},
-  {path: 'proyectos', component: ProyectosComponent, canActivate:[guard], data: {expectedRole: ['admin', 'user']}},
-  {path: 'user', component: PersonaComponent, canActivate:[guard], data: {expectedRole: ['admin', 'user']}}
+  {path: 'estudios', component: EstudiosComponent},
+  {path: 'skills', component: SkillsComponent},
+  {path: 'experiencialaboral', component: ExperiencialaboralComponent},
+  {path: 'proyectos', component: ProyectosComponent},
+  {path: 'user', component: PersonaComponent}
 ];
 
 @NgModule({

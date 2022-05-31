@@ -1,19 +1,8 @@
 <div class="wrapper">
-    <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+ 
     <div class="barra_login">
-        <h1>¡Hola! soy <span class="bienvenida">Lorena Cohene Báez</span></h1>
         <h2>Bienvenid@ a mi portfolio</h2>
+        <h1>Lorena Cohene Báez</h1>
         <ul class="login_list">
             <li *ngIf="!isLogged">
                 <button type="button" data-toggle="modal" data-target="#popUpWindow"><i class="fa-solid fa-door-closed"></i>    Iniciar sesión</button>
@@ -43,7 +32,7 @@
                                 <input type="password" name="password" id="password" class="form-control" [(ngModel)]="password" required/>
                             </div> <br>
                             <div class="form-group">
-                                <button class="btn" [disabled]="!f.valid">
+                                <button class="btn" [disabled]="!f.valid" type="submit">
                                     <i class="fa-solid fa-arrow-right-to-bracket" data-dismiss="modal"></i>
                                     Iniciar Sesión
                                 </button>
