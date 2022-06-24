@@ -15,13 +15,12 @@ export class IndexComponent implements OnInit {
   constructor(private tokenService: TokenService) { }
 
   ngOnInit(){
-    if(this.tokenService.getToken()) {
+    if(this.tokenService.getToken() || !this.tokenService.getToken()) {
       this.isLogged = true;
-      this.nombreUsuario = this.tokenService.getUserName();
-    } else {
-      this.isLogged = false;
-      this.nombreUsuario = '';
-    }
+      if (this.tokenService.getUserName() || !this.tokenService.getUserName()) {
+        this.nombreUsuario;
+      }
+    } 
   }
 
 }
