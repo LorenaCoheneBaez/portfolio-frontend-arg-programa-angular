@@ -31,7 +31,11 @@
     <div class="column2">
         <div class="sobremi">
             <div class="sobremi2" *ngFor="let per of personas">
-                <span class="sobremiparrafo"> {{per.sobremi}}</span>
+                <span class="sobremiparrafo"> 
+                    <p>
+                        {{per.sobremi}}
+                    </p>
+                </span>
                 <div class="edit-parrafo" id="eliminar-editar-sobremi" *ngIf="isAdmin">
                     <button (click)="onOpenModal(null!,'add')" type="button" class="botones_contenido">
                         <i class="fa-solid fa-plus"></i>

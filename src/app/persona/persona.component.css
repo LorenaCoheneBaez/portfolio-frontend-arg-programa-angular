@@ -85,7 +85,6 @@ nav ul li a:hover {
 .column h2 {
     color: #000;;
     font-size: 33px;
-    font-weight: 50;
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
@@ -101,7 +100,7 @@ nav ul li a:hover {
 .column h2 {
     color: #000;
     font-size: larger;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 30px;
     height: 10px;
     text-align: center;
@@ -114,7 +113,7 @@ nav ul li a:hover {
 
 .column h2:first-child{
     margin-bottom: .9375rem;
-    font-weight: bold;
+    
 }
 
 .column img {
