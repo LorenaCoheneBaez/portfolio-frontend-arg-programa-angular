@@ -10,7 +10,7 @@
 
 <div class="container" *ngFor="let per of personas">
     <div class="column">
-        <img src={{per.urlImagen}} alt="foto de perfil Lorena Cohene Báez" id="foto_cv"> 
+        <img src="../../assets/img/foto-linkedin.jpg" alt="foto de perfil Lorena Cohene Báez" id="foto_cv"> 
         <div id="eliminar-editar-sobremi" *ngIf="isAdmin">
             <button (click)="onOpenModal(null!,'add')" type="button" class="botones_contenido">
                 <i class="fa-solid fa-plus"></i>
@@ -22,8 +22,8 @@
                 <i class="fa-solid fa-eraser"></i>  
             </button>
         </div>
-        <h1>{{per.nombre}}<span id="strong">{{per.apellido}} </span> </h1>
-        <h2>{{per.ocupacion}} </h2>
+        <h2>{{per.nombre}} {{per.apellido}} </h2>
+        <h3>{{per.ocupacion}} </h3>
         
     </div>
     <div class="column2">

@@ -6,13 +6,11 @@
 
 .fondo {
   width: 100%;
-  background-color: #e38ba9;
-  /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)), url(../../assets/img/wallpaper.jpg); */
+  background-color: #e38ba999;
 }
 .contenido {
   width: 100%;
   height: auto;
-  /* display: flex; */
   flex-direction: column;
   padding: 40px;
   justify-self: center;
@@ -42,7 +40,11 @@
 
 .flex {
   display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
 }
+
+
 
 .imagenproyecto {
   padding: 0px;

@@ -11,7 +11,10 @@
                 <div class="efectohover" *ngFor="let proy of proyectos">
                     <div class="imagenproyecto">
                         <div class="imagenabajo">
-                            <a href={{proy.urlProyecto}} target="_blank"><img src={{proy.urlImagen}} alt="Fotografía del proyecto"></a> 
+                           <div class="caja-proyecto">
+                             <h3>{{proy.nombreProyecto}}</h3>
+                             <a href={{proy.urlProyecto}} target="_blank"><img src={{proy.urlImagen}} alt="Fotografía del proyecto"></a> 
+                           </div>
                             
                             <div class="textoarriba" id="eliminar-editar-proyectos" *ngIf="isAdmin">
                                 <button (click)="onOpenModal(proy,'edit')" type="button" class="botones_contenido">

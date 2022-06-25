@@ -9,16 +9,17 @@ html, body { height: 100%;
 width: 100%; }
 
 body {
-    font-family: Raleway, 'Courier New', Courier, monospace; 
+    font-family: Nunito, Raleway; 
     color: #f42160;
 }
 
 a{
     color: #0000;
+    text-decoration: none;
 }
 
-button{
-    border: 2px solid #f42160;
+h1, h2, h3, h4{
+    color: #000;
 }
 
 

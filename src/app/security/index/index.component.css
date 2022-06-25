@@ -22,7 +22,6 @@
 
 .argprog {
     font-size: 15px;
-    font-family: 'Encode Sans', sans-serif;
     color: white;
     font-weight: bolder;
     align-self: center;
@@ -83,19 +82,23 @@ footer {
 } */
 
 .subir {
-    height: 35px;
-    width: 35px;
-    background-color: #7C0E74;
-    border: 2px solid #fff;
-    box-shadow: 0 0 5px rgb(185, 22, 164);
+    height: 45px;
+    width: 45px;
+    background-color: grey;
+    border-radius: 100%;
     position: fixed;
     bottom: 65px;
     right: 20px;
     font-size: 25px;
     opacity: 75%;
+    text-decoration: none;
 }
 
 .subir i {
-    font-size: 15px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 20px;
     padding: 10px;
+    color: whitesmoke;
 }

@@ -26,7 +26,6 @@
 
 h1 {
     width: 100%;
-    font-family: Helvetica, sans-serif;
     font-size: 2.8125rem;
     font-weight: light;
     padding: 5px;
@@ -42,6 +41,7 @@ h1 {
 .barra_login ul {
     list-style: none;
     justify-items: center;
+    margin-top: 3%;
     
 }
 
@@ -53,12 +53,14 @@ h1 {
     padding: 5px;
 }
 
-.barra_login ul li button{
-    border: 2px solid #f42160;
+.barra_login ul li button, a{
+   color: #fff;
     padding: 2px 10px;
     border-radius: 7px;
     transition: 1s;
-    background-color: #fff;
+    background-color: #e38ba933;
+    border: solid 2px#e38ba999;
+    text-decoration: none;
 }
 
 
@@ -81,13 +83,17 @@ span {
 }
 
     
-
+#all{
+    background-color:  #e38ba9e8;
+    border: solid 2px #e38ba9e8;
+    border-radius: .4375rem;
+}
 
 .modal-header button {
     border: none;
     background: none;
     text-align: right;
-    color: #720F64;
+    color: #e38ba999;
 }
 
 .modal-content {

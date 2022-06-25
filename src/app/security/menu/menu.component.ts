@@ -43,6 +43,11 @@ export class MenuComponent implements OnInit {
     window.location.reload();
   }
 
+  onRedirect(): void{
+    this.router.navigate(['/']);
+    window.location.reload();
+  }
+
   onLogin(): void {
      this.loginUsuario = new LoginUsuario(this.nombreUsuario, this.password);
      this.authService.login(this.loginUsuario).subscribe({

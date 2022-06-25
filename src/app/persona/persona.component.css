@@ -11,7 +11,6 @@ body {
 nav {
     position: sticky;
     top: 0px;
-    font-family: 'Cabin', sans-serif;
     background-color: #FA92E7;
     padding: 3px;     
 }
@@ -74,9 +73,7 @@ nav ul li a:hover {
 
 .sobremi2{
     width: 100%;
-    font-size: 15px;
-    color: white;
-    font-style: italic;
+    font-size: 25px;
     padding: 25px;
     text-align: right;
     left: 50%;
@@ -85,9 +82,8 @@ nav ul li a:hover {
 .sobremiparrrafo {
     font-size: 17px;
 }
-.column h1 {
-    font-family: 'Cabin', sans-serif ;
-    color: white;
+.column h2 {
+    color: #000;;
     font-size: 33px;
     font-weight: 50;
     display: flex;
@@ -103,18 +99,22 @@ nav ul li a:hover {
 }
 
 .column h2 {
-    font-family: 'Cabin', sans-serif ;
-    color: antiquewhite;
+    color: #000;
     font-size: larger;
     font-weight: lighter;
     font-size: 30px;
     height: 10px;
-    text-align: end;
+    text-align: center;
     text-shadow: 1px 2px 5px  #ccc;
     margin-bottom: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top: 2%;
+}
 
+.column h2:first-child{
+    margin-bottom: .9375rem;
+    font-weight: bold;
 }
 
 .column img {
@@ -128,10 +128,8 @@ nav ul li a:hover {
  /* Desde acá es la barra de login  */
 
 
-h1,
 h2 {
     text-transform: uppercase;
-    text-shadow: 0 0 5px #ccc ;
 }
 
 .column3 {
@@ -152,7 +150,6 @@ h2 {
     background-color: #3CC14E;
     padding: 4px;
     border-radius: 50%;
-    box-shadow: 1px 4px 7px rgb(78, 61, 78);
     
 }
 
@@ -234,13 +231,12 @@ h2 {
 
 
 
-.column h1 {
+.column h2 {
     font-weight: lighter;
 }
 
-h1 span {
+h2 {
     font-size: 25px;
-    text-shadow: 0 3 5px rgb(189, 173, 173) ;
 }
 
 #eliminar-editar-sobremi {

@@ -4,9 +4,14 @@
     <h1>Lorena Cohene Báez</h1>
     <h2>Desarrolladora web full stack</h2>
     <ul class="login_list">
+      
+      <li>
+        <a id="all" href="#all"><i class="fa-solid fa-door-closed"></i> INGRESAR SIN LOGUEARSE</a>
+      </li>
+
       <li *ngIf="!isLogged">
         <button type="button" data-toggle="modal" data-target="#popUpWindow">
-          <i class="fa-solid fa-door-closed"></i> Iniciar sesión
+           Iniciar sesión
         </button>
       </li>
       <li *ngIf="isLogged" (click)="onLogOut()">
@@ -15,7 +20,6 @@
         </button>
       </li>
     </ul>
-    <a href="#all">Ingresar</a>
   </div>
 
   <div class="modal" id="popUpWindow">
@@ -28,7 +32,7 @@
         </div>
         <br />
         <div class="modal-body">
-          <!-- <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+          <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
             <div class="form-group">
               <label for="nombreUsuario"> Usuario</label>
               <input
@@ -61,7 +65,7 @@
                 Iniciar Sesión
               </button>
             </div>
-          </form> -->
+          </form>
         </div>
       </div>
     </div>
