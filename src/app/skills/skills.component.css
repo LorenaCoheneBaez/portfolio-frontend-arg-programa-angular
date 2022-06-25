@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 #main-container {
-  background-color: ##e38ba999;
+  background-color: #e38ba999;
   min-width: 100%;
 }
 .contenido {
@@ -77,8 +77,6 @@
   display: block;
   height: 10px;
   overflow: hidden;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   text-align: center;
 }
 

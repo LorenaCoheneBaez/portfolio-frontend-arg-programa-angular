@@ -50,7 +50,7 @@
 .listatrabajosparrafos {
   font-size: 17px;
   justify-content: center;
-  background-color: ##e38ba999;
+  background-color: #e38ba999;
   border-radius: 4px;
   padding: 20px;
   line-height: 18px;
@@ -60,10 +60,7 @@
   transition: 0.2s;
 }
 
-.listatrabajosparrafos:hover {
-  box-shadow: 2px 5px 15px #b1189c;
-  transition: 0.2s;
-}
+
 .listatrabajosparrafos p {
   font-size: 15px;
 }

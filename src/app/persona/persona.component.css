@@ -102,26 +102,23 @@ nav ul li a:hover {
     font-size: larger;
     font-weight: bold;
     font-size: 30px;
-    height: 10px;
     text-align: center;
-    text-shadow: 1px 2px 5px  #ccc;
     margin-bottom: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top: 2%;
+    height: 2.5rem;
 }
 
-.column h2:first-child{
-    margin-bottom: .9375rem;
-    
+.column h3{
+    font-weight: lighter;
+    text-align: center;
 }
 
 .column img {
     width: 50%;
     border-radius: 50%;
     border: rgb(250, 174, 237) solid 1.5px;
-    
-
 }
 
  /* Desde acá es la barra de login  */
